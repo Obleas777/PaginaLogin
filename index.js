@@ -1,4 +1,3 @@
-
 function validar() {
     alert($('#user').val());
     var password = document.getElementById("#password");
