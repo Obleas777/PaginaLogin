@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <center>
+        <br>
+        <br>
+        <div
+            style="width: 300px; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #f9f9f9;">
+            <br>
+            <form style="display: flex; flex-direction: column;" action="">
+                <input type="text" name="user" id="user" placeholder="user"> <br> <br />
+                <input type="password" name="password" id="password" placeholder="password">
+                <div class="g-recaptcha" data-sitekay="6LcqpBopAAAAAL3XAn-g_Lsk1h5Ppifn1riGqZ7C"
+                    data-callback="correctCaptcha"></div>
+                <input type="button" value="Login" onclick="validar()">
+            </form>
+        </div>
+    </center>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+</html>
