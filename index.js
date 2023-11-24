@@ -7,6 +7,6 @@ function validar() {
 }
 
 function correctCaptcha(){
-    console.log("Captcha resuelto correctamente")
-    bandera = true
+    console.log("Captcha resuelto correctamente");
+    bandera = true;
 }
