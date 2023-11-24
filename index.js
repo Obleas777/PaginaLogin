@@ -1,8 +1,8 @@
-var bandera= false;
 
 function validar() {
     alert($('#user').val());
-
+    var password = document.getElementById("#password");
+    var bandera= false;
     var user = document.getElementById("user");
     alert("Tu usuario es:"+user.value+"Contraseña:" +password.value);
 }
